@@ -5,7 +5,6 @@
     <referenceTo>Expense__c</referenceTo>
     <relationshipLabel>Expense Lines</relationshipLabel>
     <relationshipName>Expense_Lines</relationshipName>
-    <required>true</required>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>

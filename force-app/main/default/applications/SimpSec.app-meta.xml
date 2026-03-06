@@ -2,10 +2,7 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>Engagement__c</defaultLandingTab>
     <description>SimpSec Security and Consulting Platform</description>
-    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
-    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>SimpSec</label>
-    <navType>Standard</navType>
     <tabs>standard-Lead</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
@@ -32,5 +29,4 @@
     <tabs>Service_Platform_Dependency__c</tabs>
     <tabs>Employee__c</tabs>
     <tabs>Recurring_Cost__c</tabs>
-    <uiType>Lightning</uiType>
 </CustomApplication>

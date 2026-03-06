@@ -5,7 +5,6 @@
     <referenceTo>Assessment_Template__c</referenceTo>
     <relationshipLabel>Assessment Template Controls</relationshipLabel>
     <relationshipName>Assessment_Template_Controls</relationshipName>
-    <required>true</required>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>

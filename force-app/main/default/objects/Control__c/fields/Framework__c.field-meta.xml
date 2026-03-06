@@ -5,7 +5,6 @@
     <referenceTo>Framework__c</referenceTo>
     <relationshipLabel>Controls</relationshipLabel>
     <relationshipName>Controls</relationshipName>
-    <required>true</required>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>

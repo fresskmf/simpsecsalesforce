@@ -5,7 +5,6 @@
     <referenceTo>Audit__c</referenceTo>
     <relationshipLabel>Audit Findings</relationshipLabel>
     <relationshipName>Audit_Findings</relationshipName>
-    <required>true</required>
     <type>MasterDetail</type>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>
