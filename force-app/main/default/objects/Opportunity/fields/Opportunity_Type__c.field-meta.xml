@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Type__c</fullName>
+    <label>Opportunity Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Security Assessment</fullName>
+                <default>false</default>
+                <label>Security Assessment</label>
+            </value>
+            <value>
+                <fullName>Security Implementation</fullName>
+                <default>false</default>
+                <label>Security Implementation</label>
+            </value>
+            <value>
+                <fullName>AI Automation</fullName>
+                <default>false</default>
+                <label>AI Automation</label>
+            </value>
+            <value>
+                <fullName>IT Infrastructure</fullName>
+                <default>false</default>
+                <label>IT Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+                <label>Consulting</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

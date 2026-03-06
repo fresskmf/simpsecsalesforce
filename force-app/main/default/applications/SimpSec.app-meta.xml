@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>Engagement__c</defaultLandingTab>
+    <description>SimpSec Security and Consulting Platform</description>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>SimpSec</label>
+    <navType>Standard</navType>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>Engagement__c</tabs>
+    <tabs>Project__c</tabs>
+    <tabs>Project_Task__c</tabs>
+    <tabs>Time_Entry__c</tabs>
+    <tabs>Expense__c</tabs>
+    <tabs>Expense_Line__c</tabs>
+    <tabs>Framework__c</tabs>
+    <tabs>Control_Category__c</tabs>
+    <tabs>Control__c</tabs>
+    <tabs>Audit__c</tabs>
+    <tabs>Audit_Finding__c</tabs>
+    <tabs>Remediation_Task__c</tabs>
+    <tabs>Risk__c</tabs>
+    <tabs>Assessment_Template__c</tabs>
+    <tabs>Assessment_Template_Control__c</tabs>
+    <tabs>Platform_Service__c</tabs>
+    <tabs>Platform_Subscription__c</tabs>
+    <tabs>Service__c</tabs>
+    <tabs>Service_Platform_Dependency__c</tabs>
+    <tabs>Employee__c</tabs>
+    <tabs>Recurring_Cost__c</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>

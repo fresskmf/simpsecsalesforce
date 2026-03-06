@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assessment_Template__c</fullName>
+    <label>Assessment Template</label>
+    <referenceTo>Assessment_Template__c</referenceTo>
+    <relationshipLabel>Assessment Template Controls</relationshipLabel>
+    <relationshipName>Assessment_Template_Controls</relationshipName>
+    <required>true</required>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

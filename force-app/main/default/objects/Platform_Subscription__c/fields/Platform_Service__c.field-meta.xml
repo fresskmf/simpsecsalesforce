@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform_Service__c</fullName>
+    <label>Platform Service</label>
+    <referenceTo>Platform_Service__c</referenceTo>
+    <relationshipLabel>Platform Subscriptions</relationshipLabel>
+    <relationshipName>Platform_Subscriptions</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

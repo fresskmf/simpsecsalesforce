@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Platform Subscription</label>
+    <nameField>
+        <label>Subscription Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Platform Subscriptions</pluralLabel>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
