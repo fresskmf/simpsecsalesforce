@@ -47,6 +47,8 @@
     <fieldPermissions><editable>true</editable><field>Product2.Sub_Category__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Product2.Is_Bundle__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Product2.Product_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Product2.Base_Standalone_Price__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Product2.Bundle_Discount_Rate__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Pulse_Check__c.Lead__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Pulse_Check__c.Account__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Pulse_Check__c.Quiz_Type__c</field><readable>true</readable></fieldPermissions>
