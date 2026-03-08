@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domain__c</fullName>
+    <label>Domain</label>
+    <referenceTo>Control_Domain__c</referenceTo>
+    <relationshipLabel>Control Categories</relationshipLabel>
+    <relationshipName>Control_Categories</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

@@ -1023,6 +1023,34 @@
     <fieldPermissions><editable>true</editable><field>Case.Email__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Case.Phone__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Case.Company__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control_Domain__c.Framework__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control_Domain__c.Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control_Domain__c.Sort_Order__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control_Domain__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Control__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Audit_Finding__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Client_Environment__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Evidence_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Evidence_Source__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Verification_Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Review_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Evidence__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control_Category__c.Domain__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control__c.Control_ID__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control__c.Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control__c.Review_Frequency__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control__c.Evidence_Required__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control__c.Control_Owner__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Control__c.Implementation_Guidance__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Audit_Finding__c.Severity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Audit_Finding__c.Evidence_Required__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Audit_Finding__c.Client_Environment__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Risk__c.Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Risk__c.Likelihood__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Risk__c.Impact__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>false</editable><field>Risk__c.Risk_Score__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Risk__c.Client_Environment__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Risk__c.Mitigation_Plan__c</field><readable>true</readable></fieldPermissions>
 
     <!-- Object Permissions -->
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Engagement__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
@@ -1056,6 +1084,8 @@
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Discovery_Assessment__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Discovery_Finding__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Discovery_Recommendation__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Control_Domain__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Evidence__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <!-- Tab Visibility -->
     <tabVisibilities><tab>Engagement__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
     <tabVisibilities><tab>Project__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
