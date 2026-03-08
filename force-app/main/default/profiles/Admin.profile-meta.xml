@@ -1025,6 +1025,13 @@
     <fieldPermissions><editable>true</editable><field>Case.Email__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Case.Phone__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Case.Company__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Timesheet__c.Employee__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Timesheet__c.Period_Start__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Timesheet__c.Period_End__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Timesheet__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Timesheet__c.Total_Hours__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Timesheet__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Time_Entry__c.Timesheet__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Control_Domain__c.Framework__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Control_Domain__c.Description__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Control_Domain__c.Sort_Order__c</field><readable>true</readable></fieldPermissions>
@@ -1059,6 +1066,7 @@
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Project__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Project_Task__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Time_Entry__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
+    <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Timesheet__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Expense__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Expense_Line__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Framework__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
