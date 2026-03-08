@@ -213,7 +213,6 @@
     <fieldPermissions><editable>true</editable><field>Opportunity.Opportunity_Type__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Opportunity.Primary_Service__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Opportunity.Converted_Engagement__c</field><readable>true</readable></fieldPermissions>
-    <fieldPermissions><editable>true</editable><field>Quote.Opportunity__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Quote.Total_Service_Value__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Quote.Engagement__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Product2.Service_Category__c</field><readable>true</readable></fieldPermissions>
@@ -370,6 +369,12 @@
     <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Category__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Default_Price__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Case.MSA_Contract_Number__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Case.Affected_Service__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Case.Name__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Case.Email__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Case.Phone__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Case.Company__c</field><readable>true</readable></fieldPermissions>
 
     <!-- Object Permissions -->
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Engagement__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>

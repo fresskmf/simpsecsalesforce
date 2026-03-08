@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Type</fullName>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Incident</fullName>
+                    <default>false</default>
+                    <label>Incident</label>
+                </value>
+                <value>
+                    <fullName>Service Request</fullName>
+                    <default>false</default>
+                    <label>Service Request</label>
+                </value>
+                <value>
+                    <fullName>Change Request</fullName>
+                    <default>false</default>
+                    <label>Change Request</label>
+                </value>
+                <value>
+                    <fullName>Billing/Invoice</fullName>
+                    <default>false</default>
+                    <label>Billing/Invoice</label>
+                </value>
+                <value>
+                    <fullName>Contract/Account</fullName>
+                    <default>false</default>
+                    <label>Contract/Account</label>
+                </value>
+                <value>
+                    <fullName>General Question</fullName>
+                    <default>false</default>
+                    <label>General Question</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Critical</fullName>
+                    <default>false</default>
+                    <label>Critical</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>true</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
