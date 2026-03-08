@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Authentication_Method__c</fullName>
+    <label>Authentication Method</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SSO</fullName>
+                <default>false</default>
+                <label>SSO</label>
+            </value>
+            <value>
+                <fullName>MFA</fullName>
+                <default>false</default>
+                <label>MFA</label>
+            </value>
+            <value>
+                <fullName>Local Auth</fullName>
+                <default>false</default>
+                <label>Local Auth</label>
+            </value>
+            <value>
+                <fullName>API Key</fullName>
+                <default>false</default>
+                <label>API Key</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>
