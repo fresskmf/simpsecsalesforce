@@ -2,16 +2,37 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Revenue_Range__c</fullName>
     <label>Revenue Range</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <restricted>false</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
-            <value><fullName>Under $1M</fullName><default>false</default><label>Under $1M</label></value>
-            <value><fullName>$1M - $5M</fullName><default>false</default><label>$1M - $5M</label></value>
-            <value><fullName>$5M - $25M</fullName><default>false</default><label>$5M - $25M</label></value>
-            <value><fullName>$25M - $100M</fullName><default>false</default><label>$25M - $100M</label></value>
-            <value><fullName>$100M+</fullName><default>false</default><label>$100M+</label></value>
+            <value>
+                <fullName>Under $1M</fullName>
+                <default>false</default>
+                <label>Under $1M</label>
+            </value>
+            <value>
+                <fullName>$1M - $5M</fullName>
+                <default>false</default>
+                <label>$1M - $5M</label>
+            </value>
+            <value>
+                <fullName>$5M - $25M</fullName>
+                <default>false</default>
+                <label>$5M - $25M</label>
+            </value>
+            <value>
+                <fullName>$25M - $100M</fullName>
+                <default>false</default>
+                <label>$25M - $100M</label>
+            </value>
+            <value>
+                <fullName>$100M+</fullName>
+                <default>false</default>
+                <label>$100M+</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

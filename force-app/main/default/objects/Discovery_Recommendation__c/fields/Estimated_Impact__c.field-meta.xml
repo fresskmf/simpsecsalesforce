@@ -2,15 +2,32 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Estimated_Impact__c</fullName>
     <label>Estimated Impact</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <restricted>false</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
-            <value><fullName>Low</fullName><default>false</default><label>Low</label></value>
-            <value><fullName>Moderate</fullName><default>false</default><label>Moderate</label></value>
-            <value><fullName>High</fullName><default>false</default><label>High</label></value>
-            <value><fullName>Transformational</fullName><default>false</default><label>Transformational</label></value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Moderate</fullName>
+                <default>false</default>
+                <label>Moderate</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Transformational</fullName>
+                <default>false</default>
+                <label>Transformational</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

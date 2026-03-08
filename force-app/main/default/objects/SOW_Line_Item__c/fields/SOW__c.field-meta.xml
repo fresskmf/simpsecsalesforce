@@ -2,11 +2,12 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SOW__c</fullName>
     <label>SOW</label>
-    <type>MasterDetail</type>
     <referenceTo>SOW__c</referenceTo>
     <relationshipLabel>SOW Line Items</relationshipLabel>
     <relationshipName>SOW_Line_Items</relationshipName>
     <relationshipOrder>0</relationshipOrder>
-    <trackHistory>false</trackHistory>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
 </CustomField>

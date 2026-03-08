@@ -847,7 +847,7 @@
         <name>ViewUserPII</name>
     </userPermissions>
 
-    <!-- SimpSec Field Permissions -->
+    <!-- Field Permissions -->
     <fieldPermissions><editable>true</editable><field>Account.Client_Status__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Account.Security_Tier__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Account.Annual_Contract_Value__c</field><readable>true</readable></fieldPermissions>
@@ -932,6 +932,93 @@
     <fieldPermissions><editable>true</editable><field>Service_Platform_Dependency__c.Service__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Service_Platform_Dependency__c.Platform_Service__c</field><readable>true</readable></fieldPermissions>
     <fieldPermissions><editable>true</editable><field>Service_Platform_Dependency__c.Dependency_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Bundle_Item__c.Bundle__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Bundle_Item__c.Default_Quantity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Bundle_Item__c.Product__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Bundle_Item__c.Required__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Bundle_Item__c.Sort_Order__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Account__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Authentication_Method__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Criticality__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Data_Sensitivity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Environment_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Owner_Contact__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Client_Environment__c.Vendor__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Account__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Budget_Range__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Company_Size__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Decision_Maker_Identified__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Discovery_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Discovery_Type__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Employee_Count__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Industry__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Opportunity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Overall_Risk_Level__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Primary_Contact__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Primary_Pain_Point__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Primary_Systems__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Revenue_Range__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Timeline__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Assessment__c.Urgency_Level__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Affected_System__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Business_Impact__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Category__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Evidence__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Finding_Name__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Risk_Score__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Severity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Finding__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Category__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Estimated_Effort__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Estimated_Impact__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Include_in_Proposal__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Notes__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Priority__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Recommendation_Name__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Recommended_Package__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Recommended_Product__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Related_Finding__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Discovery_Recommendation__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Account__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Data_Processing_Addendum__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Document_File__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Effective_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Expiration_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Insurance_Required__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Jurisdiction__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Primary_Signatory__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>MSA__c.Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Completion_Status__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Deliverable_Title__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Estimated_Hours__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Product__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Quote_Line_Item__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Scope_Description__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW_Line_Item__c.Service_Category__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Acceptance_Criteria__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Account__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Assumptions__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Client_Goals__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Dependencies__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Document_File__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.End_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.MSA__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Opportunity__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Out_of_Scope__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Payment_Terms__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Quote__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Scope_Summary__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>SOW__c.Start_Date__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Active__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Category__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Default_Price__c</field><readable>true</readable></fieldPermissions>
+    <fieldPermissions><editable>true</editable><field>Service_Bundle__c.Description__c</field><readable>true</readable></fieldPermissions>
+
     <!-- Object Permissions -->
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Engagement__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
     <objectPermissions><allowCreate>true</allowCreate><allowDelete>true</allowDelete><allowEdit>true</allowEdit><allowRead>true</allowRead><modifyAllRecords>true</modifyAllRecords><object>Project__c</object><viewAllRecords>true</viewAllRecords></objectPermissions>
@@ -996,4 +1083,5 @@
     <tabVisibilities><tab>Discovery_Assessment__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
     <tabVisibilities><tab>Discovery_Finding__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
     <tabVisibilities><tab>Discovery_Recommendation__c</tab><visibility>DefaultOn</visibility></tabVisibilities>
+
 </Profile>

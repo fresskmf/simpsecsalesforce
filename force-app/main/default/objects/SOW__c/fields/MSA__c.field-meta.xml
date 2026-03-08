@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>MSA__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
     <label>MSA</label>
-    <type>Lookup</type>
     <referenceTo>MSA__c</referenceTo>
     <relationshipLabel>SOWs</relationshipLabel>
     <relationshipName>SOWs</relationshipName>
-    <trackHistory>false</trackHistory>
+    <required>false</required>
     <trackTrending>false</trackTrending>
+    <type>Lookup</type>
 </CustomField>

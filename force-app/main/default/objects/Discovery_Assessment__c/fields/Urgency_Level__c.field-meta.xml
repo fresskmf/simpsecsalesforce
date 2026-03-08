@@ -2,15 +2,32 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Urgency_Level__c</fullName>
     <label>Urgency Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
-        <restricted>false</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
-            <value><fullName>Immediate</fullName><default>false</default><label>Immediate</label></value>
-            <value><fullName>30 Days</fullName><default>false</default><label>30 Days</label></value>
-            <value><fullName>This Quarter</fullName><default>false</default><label>This Quarter</label></value>
-            <value><fullName>Future / Exploring</fullName><default>false</default><label>Future / Exploring</label></value>
+            <value>
+                <fullName>Immediate</fullName>
+                <default>false</default>
+                <label>Immediate</label>
+            </value>
+            <value>
+                <fullName>30 Days</fullName>
+                <default>false</default>
+                <label>30 Days</label>
+            </value>
+            <value>
+                <fullName>This Quarter</fullName>
+                <default>false</default>
+                <label>This Quarter</label>
+            </value>
+            <value>
+                <fullName>Future / Exploring</fullName>
+                <default>false</default>
+                <label>Future / Exploring</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
