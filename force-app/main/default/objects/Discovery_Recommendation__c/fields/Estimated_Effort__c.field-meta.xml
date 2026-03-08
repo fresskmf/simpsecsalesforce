@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estimated_Effort__c</fullName>
+    <label>Estimated Effort</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>false</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>Quick Fix</fullName><default>false</default><label>Quick Fix</label></value>
+            <value><fullName>Small Project</fullName><default>false</default><label>Small Project</label></value>
+            <value><fullName>Medium Project</fullName><default>false</default><label>Medium Project</label></value>
+            <value><fullName>Large Project</fullName><default>false</default><label>Large Project</label></value>
+            <value><fullName>Ongoing Service</fullName><default>false</default><label>Ongoing Service</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

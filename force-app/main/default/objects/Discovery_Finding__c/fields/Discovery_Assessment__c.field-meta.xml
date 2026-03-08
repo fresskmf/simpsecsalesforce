@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discovery_Assessment__c</fullName>
+    <label>Discovery Assessment</label>
+    <type>MasterDetail</type>
+    <referenceTo>Discovery_Assessment__c</referenceTo>
+    <relationshipLabel>Discovery Findings</relationshipLabel>
+    <relationshipName>Discovery_Findings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
